@@ -12,6 +12,7 @@ function CardDescription({ person }) {
         height="150px"
       ></img>
       <h3 className="CardDescription-name">{person.name}</h3>
+      <h4 clasName="CardDescription-actor">{person.actor}</h4>
     </section>
   );
 }
