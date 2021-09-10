@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-image: url(https://gracomonline.com.br/site/landing-harrypotter/images/bg-harry.jpeg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  background-position-x: 19%;
+  color: white;
+}

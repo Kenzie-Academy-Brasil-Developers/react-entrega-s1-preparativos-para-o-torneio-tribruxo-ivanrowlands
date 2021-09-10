@@ -1,0 +1,37 @@
+.btn-start {
+  font-size: 20px;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 10px;
+  margin: 5px auto;
+  cursor: pointer;
+  transition: 0.7s ease;
+}
+.btn-back {
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 10px auto;
+  cursor: pointer;
+  transition: 0.7s ease;
+}
+
+.btn-back:hover,
+.btn-start:hover {
+  transition: 0.7s ease;
+  opacity: 0.6;
+}
+@media (min-width: 768px) {
+  .btn-start {
+    font-size: 25px;
+    padding: 10px;
+  }
+}
+@media (min-width: 1024px) {
+  .btn-start {
+    margin: 10px 250px;
+  }
+  .btn-back {
+    margin: 10px 360px;
+  }
+}

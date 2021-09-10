@@ -1,0 +1,30 @@
+.CardCharacteres-container {
+  display: flex;
+  flex-flow: column nowrap;
+  background-color: rgba(255, 255, 255, 0.185);
+  border-radius: 20px;
+  width: 200px;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+@media (min-width: 768px) {
+  .CardCharacteres-container {
+    flex-direction: row;
+    justify-content: space-around;
+    width: 700px;
+    margin: 0px 40px;
+  }
+}
+@media (min-width: 1024px) {
+  .CardCharacteres-container {
+    margin: 0px 40px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .CardCharacteres-container {
+    margin: 0px 40px;
+  }
+}

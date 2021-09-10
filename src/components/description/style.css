@@ -1,0 +1,12 @@
+.CardDescription-card {
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.CardDescription-name {
+  font-size: 15px;
+}
+.CardDescription-house {
+  font-size: 25px;
+}
